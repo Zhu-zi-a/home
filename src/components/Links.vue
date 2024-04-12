@@ -80,7 +80,7 @@ const jumpLink = (data) => {
     // 使用 navigator.clipboard.writeText 将 data.link 复制到剪贴板
     navigator.clipboard.writeText(data.link).then(() => {
       // 弹出成功提示
-      alert('复制成功!');
+      alert('复制成功,请直接粘贴到软件接口处使用!');
     }).catch(err => {
       // 抛出异常
       console.error('复制失败!', err);
