@@ -76,6 +76,15 @@ const siteIcon = {
 const jumpLink = (data) => {
   if (data.name === "音乐" && store.musicClick) {
     if (typeof $openList === "function") $openList();
+  } else if (data.name.includes("接口")) { // 如果 data.name 包含 "接口"
+    // 使用 navigator.clipboard.writeText 将 data.link 复制到剪贴板
+    navigator.clipboard.writeText(data.link).then(() => {
+      // 弹出成功提示
+      alert('复制成功!');
+    }).catch(err => {
+      // 抛出异常
+      console.error('复制失败!', err);
+    });
   } else {
     window.open(data.link, "_blank");
   }
