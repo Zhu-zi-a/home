@@ -1,9 +1,19 @@
 [
   {
     "icon": "Book",
-    "name": "tvbox接口",
-    "link": "http://www.王二小放牛娃.xyz/tvbox"
+    "name": "放牛娃接口",
+    "link": "http:/tvbox.王二小放牛娃.xyz/"
   },
+  {
+    "icon": "Book",
+    "name": "饭太硬接口",
+    "link": "http://饭太硬.top/tv"
+  }, 
+  {
+    "icon": "Book",
+    "name": "OK吊炸天接口",
+    "link": "https://jihulab.com/okcaptain/kko/-/raw/main/ok.txt"
+  }, 
   {
     "icon": "Blog",
     "name": "telegram群组",
@@ -13,5 +23,10 @@
     "icon": "Compass",
     "name": "影视app下载",
     "link": "https://drive.uc.cn/s/ca6af372d8dc4"
+  },  
+  {
+    "icon": "CompactDisc",
+    "name": "音乐",
+    "link": ""
   }
 ]
