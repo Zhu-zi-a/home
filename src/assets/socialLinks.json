@@ -10,5 +10,11 @@
     "icon": "/images/icon/telegram.png",
     "tip": "进来扯淡啊！",
     "url": "https://t.me/+1veoBnxHKFgwZTVl"
+  },
+  {
+    "name": "放牛娃接口",
+    "icon": "/images/icon/twitter.png",
+    "tip": "http://tvbox.王二小放牛娃.xyz",
+    "url": ""
   }
 ]
