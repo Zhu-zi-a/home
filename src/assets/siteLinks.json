@@ -1,37 +1,22 @@
 [
   {
-    "icon": "Blog",
-    "name": "博客",
-    "link": "https://blog.imsyy.top/"
-  },
-  {
-    "icon": "Cloud",
-    "name": "网盘",
-    "link": "https://pan.imsyy.top/"
-  },
-  {
-    "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://music.imsyy.top/"
-  },
-  {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": "https://nav.imsyy.top/"
+    "icon": "Book",
+    "name": "王二小放牛娃接口",
+    "link": "http://tvbox.王二小放牛娃.xyz"
   },
   {
     "icon": "Book",
-    "name": "网址集",
-    "link": "https://web.imsyy.top/"
+    "name": "饭太硬接口",
+    "link": "http://饭太硬.top/tv"
   },
   {
-    "icon": "Fire",
-    "name": "今日热榜",
-    "link": "https://hot.imsyy.top/"
+    "icon": "Book",
+    "name": "ok吊炸天接口",
+    "link": "https://jihulab.com/okcaptain/kko/-/raw/main/ok.txt"
   },
   {
-    "icon": "LaptopCode",
-    "name": "站点监测",
-    "link": "https://status.imsyy.top/"
+    "icon": "Compass",
+    "name": "影视app下载",
+    "link": "https://drive.uc.cn/s/ca6af372d8dc4"
   }
 ]
