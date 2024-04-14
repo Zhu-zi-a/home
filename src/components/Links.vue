@@ -78,13 +78,25 @@ const jumpLink = (data) => {
     if (typeof $openList === "function") $openList();
   } else if (data.name.includes("接口")) { // 如果 data.name 包含 "接口"
     // 使用 navigator.clipboard.writeText 将 data.link 复制到剪贴板
-    navigator.clipboard.writeText(data.link).then(() => {
-      // 弹出成功提示
-      alert('复制成功,请直接粘贴到软件接口处使用!');
-    }).catch(err => {
-      // 抛出异常
-      console.error('复制失败!', err);
+        var textArea = document.createElement("textarea");
+        textArea.value = data.link;
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        try {
+          var successful = document.execCommand('copy');
+          var msg = successful ? '成功' : '失败';
+       ElMessage({
+      message: "复制成功,请直接粘贴到软件接口处使用!",
+      grouping: true,
+      duration: 2000,
     });
+        } catch (err) {
+          console.log('不能使用这种方法复制');
+        }
+        document.body.removeChild(textArea);
+      // 弹出成功提示
+
   } else {
     window.open(data.link, "_blank");
   }
